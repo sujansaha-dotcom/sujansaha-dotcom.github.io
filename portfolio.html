@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Sujan Saha — Video Editor & Graphic Designer portfolio, services, tools, client feedback and contact details.">
+<title>Sujan Saha — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--orange:#ff6a00;--paper:#f6f3ed;--black:#0a0a0a;--muted:#aaa59d;--line:#252525;--max:1160px}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{background:var(--black);color:#fff;font-family:Inter,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 36px));margin:auto}
+nav{position:sticky;top:0;z-index:20;background:#0a0a0aee;border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}.navin{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font:800 21px "Space Grotesk";letter-spacing:-.05em}.brand span,.accent{color:var(--orange)}.navlinks{display:flex;gap:22px;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.navlinks a:hover{color:var(--orange)}.hire{border:1px solid var(--orange);padding:9px 15px;border-radius:999px;color:var(--orange);font-size:11px;font-weight:800}
+.hero{padding:100px 0 85px;border-bottom:1px solid var(--line)}.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:60px;align-items:end}.eyebrow,.kicker{color:var(--orange);font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}.hero h1{font:400 clamp(65px,10vw,132px)/.86 Anton;text-transform:uppercase;margin:20px 0}.hero p{max-width:680px;color:#c6c1b9;font-size:17px}.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}.btn{padding:13px 19px;border-radius:999px;font-size:12px;font-weight:800;text-transform:uppercase}.primary{background:var(--orange);color:#090909}.ghost{border:1px solid #393735}.hero-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:24px;border:1px solid #333;box-shadow:18px 18px 0 #ff6a0024}
+section{padding:90px 0}.paper{background:var(--paper);color:#111}.head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:35px}.head h2{font:400 clamp(46px,7vw,82px)/.9 Anton;text-transform:uppercase;margin-top:9px}.head p{max-width:460px;color:#777}
+.about{display:grid;grid-template-columns:.7fr 1.3fr;gap:60px;align-items:center}.about img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:22px}.about p{color:#4f4b45;font-size:17px;margin:18px 0}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:25px}.fact{background:#fff;border:1px solid #ddd7cd;border-radius:16px;padding:17px}.fact strong{display:block;color:var(--orange);font:400 33px Anton}.fact span{font-size:10px;font-weight:800;text-transform:uppercase;color:#666}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{border:1px solid var(--line);border-radius:20px;padding:25px;min-height:210px;background:#101010}.service b{color:var(--orange);font:400 34px Anton}.service h3{font:700 20px "Space Grotesk";margin:20px 0 8px}.service p{font-size:13px;color:var(--muted)}
+.tools{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.tool{border:1px solid var(--line);background:#101010;border-radius:18px;padding:22px 12px;text-align:center}.tool img{width:48px;height:48px;object-fit:contain;margin-bottom:10px}.tool h3{font:700 15px "Space Grotesk"}
+.video-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.video{background:#101010;border:1px solid var(--line);border-radius:20px;overflow:hidden}.video video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#050505}.video .cap{padding:16px}.video h3{font:700 19px "Space Grotesk"}.video p{font-size:12px;color:var(--muted)}
+.gallery{column-count:4;column-gap:13px;margin-top:25px}.item{display:inline-block;width:100%;margin:0 0 13px;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#111;break-inside:avoid}.item img{display:block;width:100%;height:auto}.item div{padding:9px 11px;font-size:11px;font-weight:800}
+.re{background:#fff;color:#111}.reviews{display:grid;grid-template-columns:1fr 1fr;gap:16px}.review{border:1px solid #ded8cf;border-radius:18px;padding:24px}.review:before{content:"“";display:block;color:var(--orange);font:400 55px/30px Anton}.review p{font-size:14px;margin:12px 0 18px}.review small{font-size:10px;font-weight:800;color:#777;text-transform:uppercase}
+.contact{display:grid;grid-template-columns:.65fr 1.35fr;gap:55px;align-items:center}.contact img{width:100%;aspect-ratio:4/5;object-fit:contain;background:#151515;border-radius:22px}.contact h2{font:400 clamp(52px,8vw,95px)/.88 Anton;text-transform:uppercase;margin:12px 0 20px}.contact p{color:#c6c1b9;max-width:620px}.links{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.link{border:1px solid var(--line);border-radius:16px;padding:16px;background:#101010}.link:hover{border-color:var(--orange)}.link span{display:block;color:var(--orange);font-size:10px;font-weight:800;text-transform:uppercase}.link strong{font:600 15px "Space Grotesk"}
+footer{border-top:1px solid var(--line);padding:25px 0;color:#777;font-size:11px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:850px){.navlinks{display:none}.hero-grid,.about,.contact{grid-template-columns:1fr}.hero-photo{max-width:560px}.services{grid-template-columns:1fr 1fr}.tools{grid-template-columns:repeat(3,1fr)}.gallery{column-count:3}}
+@media(max-width:600px){section{padding:70px 0}.services,.video-grid,.reviews,.links{grid-template-columns:1fr}.tools{grid-template-columns:1fr 1fr}.gallery{column-count:2}.facts{grid-template-columns:1fr}.wrap{width:min(var(--max),calc(100% - 26px))}}
+</style>
+</head>
+<body>
+<nav><div class="wrap navin"><a class="brand" href="index.html">SUJAN<span>.</span></a><div class="navlinks"><a href="#about">About</a><a href="#services">Services</a><a href="#tools">Software</a><a href="#work">Work</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></div><a class="hire" href="https://www.fiverr.com/sujaansaha" target="_blank" rel="noopener">Hire Me</a></div></nav>
+
+<header class="hero"><div class="wrap hero-grid"><div><div class="eyebrow">Merged Portfolio · Video + Graphic Design</div><h1>Visuals<br>that <span class="accent">work.</span></h1><p>I'm Sujan Saha — a Video Editor & Graphic Designer with 12+ years of experience creating cinematic edits, social content, YouTube videos, thumbnails, promotional graphics and branded visual content.</p><div class="buttons"><a class="btn primary" href="#work">Explore Work ↗</a><a class="btn ghost" href="#contact">Contact Me</a></div></div><div class="hero-photo"><img src="dp.png" alt="Sujan Saha"></div></div></header>
+
+<section id="about" class="paper"><div class="wrap about"><div><img src="dp001.png" alt="Sujan Saha workspace"></div><div><div class="kicker">01 / About</div><h2 style="font:400 clamp(48px,7vw,82px)/.9 Anton;text-transform:uppercase;margin-top:10px">12+ years<br>of making.</h2><p>I work with creators, businesses and brands to turn ideas and raw material into polished visual content.</p><p>My work covers cinematic video editing, YouTube and long-form content, Reels and Shorts, thumbnails, promotional videos and graphic design.</p><div class="facts"><div class="fact"><strong>12+</strong><span>Years experience</span></div><div class="fact"><strong>5★</strong><span>Fiverr rating</span></div><div class="fact"><strong>100+</strong><span>Satisfied clients</span></div></div></div></div></section>
+
+<section id="services"><div class="wrap"><div class="head"><div><div class="kicker">02 / Services</div><h2>What I do</h2></div><p>One creative workflow for video, design and promotional content.</p></div><div class="services">
+<div class="service"><b>01</b><h3>Cinematic Video Editing</h3><p>Story-driven cuts, pacing, transitions, color, sound and polished delivery.</p></div>
+<div class="service"><b>02</b><h3>Social Media Content</h3><p>Reels, Shorts, ads and vertical videos built for fast attention.</p></div>
+<div class="service"><b>03</b><h3>YouTube & Long Form</h3><p>Engaging edits for YouTube videos, vlogs, podcasts and explainers.</p></div>
+<div class="service"><b>04</b><h3>Graphic Design</h3><p>Thumbnails, social posts, posters, banners and promotional graphics.</p></div>
+<div class="service"><b>05</b><h3>Promotional Videos</h3><p>Real estate, product, corporate, travel, fitness and marketing edits.</p></div>
+<div class="service"><b>06</b><h3>Post Production</h3><p>Color correction, captions, audio enhancement, VFX and final exports.</p></div>
+</div></div></section>
+
+<section id="tools" class="paper"><div class="wrap"><div class="head"><div><div class="kicker">03 / Software</div><h2>My toolkit</h2></div><p>Regular tools used across video editing, graphic design and social content.</p></div><div class="tools">
+<div class="tool"><img src="https://cdn.simpleicons.org/davinciresolve" alt="DaVinci Resolve"><h3>DaVinci Resolve</h3></div>
+<div class="tool"><img src="https://cdn.simpleicons.org/capcut" alt="CapCut"><h3>CapCut</h3></div>
+<div class="tool"><img src="https://cdn.simpleicons.org/adobephotoshop" alt="Adobe Photoshop"><h3>Adobe Photoshop</h3></div>
+<div class="tool"><img src="https://cdn.simpleicons.org/adobeillustrator" alt="Adobe Illustrator"><h3>Adobe Illustrator</h3></div>
+<div class="tool"><img src="https://cdn.simpleicons.org/canva" alt="Canva"><h3>Canva</h3></div>
+</div></div></section>
+
+<section id="work"><div class="wrap"><div class="head"><div><div class="kicker">04 / Portfolio</div><h2>Selected work</h2></div><p>Video editing and graphic design work arranged together from the current portfolio.</p></div>
+<div class="video-grid">
+<div class="video"><video controls preload="metadata" playsinline src="video-editing-1.mp4"></video><div class="cap"><h3>Video Editing — Sample 01</h3><p>Cinematic / social / YouTube editing</p></div></div>
+<div class="video"><video controls preload="metadata" playsinline src="video-editing-2.mp4"></video><div class="cap"><h3>Video Editing — Sample 02</h3><p>Selected editing project</p></div></div>
+</div>
+<div class="gallery">
+<a class="item" href="Dark%20Brown%20Bold%20Restaurant%20Grand%20Opening%20Poster.jpg" target="_blank"><img src="Dark%20Brown%20Bold%20Restaurant%20Grand%20Opening%20Poster.jpg" alt="Restaurant poster"><div>Restaurant Promo Poster ↗</div></a>
+<a class="item" href="pavneet.jpg" target="_blank"><img src="pavneet.jpg" alt="YouTube thumbnail"><div>YouTube Thumbnail ↗</div></a>
+<a class="item" href="0048.jpg" target="_blank"><img src="0048.jpg" alt="Graphic design"><div>Graphic Design 01 ↗</div></a>
+<a class="item" href="yoro0001.jpg" target="_blank"><img src="yoro0001.jpg" alt="Creative design"><div>Creative Design ↗</div></a>
+<a class="item" href="poster002.jpg" target="_blank"><img src="poster002.jpg" alt="Restaurant banner"><div>Restaurant Banner ↗</div></a>
+<a class="item" href="0053.jpg" target="_blank"><img src="0053.jpg" alt="Graphic design"><div>Graphic Design 03 ↗</div></a>
+<a class="item" href="IMG_8388.jpeg" target="_blank"><img src="IMG_8388.jpeg" alt="Creative design"><div>Creative Design 05 ↗</div></a>
+<a class="item" href="0052_1.jpg" target="_blank"><img src="0052_1.jpg" alt="Graphic design"><div>Graphic Design 02 ↗</div></a>
+</div></div></section>
+
+<section style="background:#101010"><div class="wrap"><div class="head"><div><div class="kicker">05 / Real Estate</div><h2>Property<br><span class="accent">stories.</span></h2></div><p>Two dedicated slots are ready for real-estate promo videos. Upload the MP4 files to GitHub and they can be connected here.</p></div><div class="video-grid">
+<div class="video"><div style="aspect-ratio:16/9;display:grid;place-items:center;background:#17120d;color:var(--orange);font:400 50px Anton">01</div><div class="cap"><h3>Real Estate Promo 01</h3><p>Property walkthrough / promo</p></div></div>
+<div class="video"><div style="aspect-ratio:16/9;display:grid;place-items:center;background:#17120d;color:var(--orange);font:400 50px Anton">02</div><div class="cap"><h3>Real Estate Promo 02</h3><p>Property showcase / cinematic edit</p></div></div>
+</div></div></section>
+
+<section id="reviews" class="paper re"><div class="wrap"><div class="head"><div><div class="kicker">06 / Client Feedback</div><h2>Reviews</h2></div><p>All 4 public Fiverr reviews currently represented in the portfolio.</p></div><div class="reviews">
+<div class="review"><p>This is my second time working with Sujan. He has always delivered exactly what I needed and was always quick to anseer and willing to listen to my feedback/comments/edits. Once we had established a mutual understanding of the brief I felt very comfortable to let him handle the rest. Thank you!</p><small>Repeat Client · South Africa · 5★</small></div>
+<div class="review"><p>Every time we work together, I am so happy with Sujan's work. I know that I can give him a brief and it will be executed swiftly and on point. It really makes things so much easier for me. Thank you!</p><small>Repeat Client · South Africa · 5★</small></div>
+<div class="review"><p>Thanks for such a quick turnaround time - coupled with a great output! So easy to work with. Much appreciated.</p><small>Repeat Client · South Africa · 5★</small></div>
+<div class="review"><p>took time with revisions to get the final product, happy with result</p><small>Client · United States · 5★</small></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap contact"><div><img src="dp002.png" alt="Sujan Saha contact portrait"></div><div><div class="kicker">07 / Connect</div><h2>Let's <span class="accent">work.</span></h2><p>Have a project, collaboration or creative brief? Reach me directly or connect through my professional profiles.</p><div class="links">
+<a class="link" href="tel:+917278248435"><span>Call</span><strong>+91 7278248435</strong></a>
+<a class="link" href="https://wa.me/917278248435" target="_blank" rel="noopener"><span>WhatsApp</span><strong>Message on WhatsApp ↗</strong></a>
+<a class="link" href="mailto:info.mrnmrsbong@gmail.com"><span>Email</span><strong>info.mrnmrsbong@gmail.com</strong></a>
+<a class="link" href="https://www.fiverr.com/sujaansaha" target="_blank" rel="noopener"><span>Fiverr</span><strong>View Fiverr Profile ↗</strong></a>
+<a class="link" href="https://www.linkedin.com/in/sujansaha88/" target="_blank" rel="noopener"><span>LinkedIn</span><strong>Connect on LinkedIn ↗</strong></a>
+<a class="link" href="https://sujansaha.my.canva.site/" target="_blank" rel="noopener"><span>Canva</span><strong>Original Portfolio ↗</strong></a>
+</div></div></div></section>
+
+<footer><div class="wrap foot"><div>© 2026 Sujan Saha · Video Editor & Graphic Designer</div><div><a href="index.html">Main Website</a> · <a href="https://www.fiverr.com/sujaansaha" target="_blank">Fiverr</a> · <a href="https://www.linkedin.com/in/sujansaha88/" target="_blank">LinkedIn</a></div></div></footer>
+</body>
+</html>
